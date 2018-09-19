@@ -1,0 +1,10 @@
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item One', 'Department A', 10.00, 50);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Two', 'Department A', 34.99, 20);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Three', 'Department B', 2.83, 140);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Four', 'Department C', 499.99, 8);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Five', 'Department A', 0.50, 500);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Six', 'Department B', 15.00, 40);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Seven', 'Department A', 8.49, 3);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Eight', 'Department C', 4.12, 35);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Nine', 'Department B', 76.97, 2);
+INSERT INTO products (product_name, department_name, price, product_quantity) VALUES ('Item Ten', 'Department B', 20.00, 70);
