@@ -1,4 +1,46 @@
+# bamazon
+
+## Description
+This application is designed to interact with a mysql database using javascript through the command line.
+
+### Tools used
+- Javascript
+- NPM
+  - cli-table
+  - inquirer
+  - mysql
+- Node
+- MySQL
+- MySQL Workbench
+
+### How to use:
+- If using the Virtual Machine porvided
+ - Instructions on setting up the VM are at the bottom of the README can be found in the README for the bamazon folder (root of the repo).
+ - Establish a connection to MySQL/MySQL Workbench
+![MySQL Workbench Connection](./assets/images/readme/mysqlConnection.png)
+
+### Options:
+All of these commands should be run in the CLI, CTRL + C can exit if needed
+Variables in between the |'s are placeholders, do not include the |'s in the search
+
+- `node liri.js`
+ - This is the main way to interact with the app. This will present you with a list of options for searching
+- `node liri.js concert-this |artist name|`
+ - This will allow you to search for concerts for a band using the Bands In Town API
+  - Bands in Town API Link: http://www.artists.bandsintown.com/bandsintown-api
+- `node liri.js spotify-this-song |song name|`
+ - This will allow you to search for a song through the Spotify Api
+  - Spotify API Link: https://developer.spotify.com/documentation/web-api/
+- `node liri.js movie-this |movie name|`
+ - This will allow you to get info for a movie through the OMDB API
+  - OMDB API Link: http://www.omdbapi.com/
+- `node liri.js do-what-it-says`
+ - This will read a txt file and run the search on it
+  - must be formatted as |action|,"|subject|"
+  - Example: `concert-this,"The Rolling Stones"`
+
 # Ubuntu Vagrant Shell
+
 ## Simple foundation for App development
 
 ### Requirements:
