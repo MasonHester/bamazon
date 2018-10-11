@@ -14,10 +14,13 @@ This application is designed to interact with a mysql database using javascript 
 - MySQL Workbench
 
 ### How to use:
-- If using the Virtual Machine porvided
+- If using the Virtual Machine provided
  - Instructions on setting up the VM are at the bottom of the README can be found in the README for the bamazon folder (root of the repo).
  - Establish a connection to MySQL/MySQL Workbench
 ![MySQL Workbench Connection](./assets/images/readme/mysqlConnection.png)
+- If not using the VM provided
+ - Clone the repo and delete these files:
+  -
 
 ### Options:
 All of these commands should be run in the CLI, CTRL + C can exit if needed
