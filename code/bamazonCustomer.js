@@ -121,4 +121,28 @@ const choose_action = () => {
     })
 }
 
-choose_action();
+const process_action = (userInput) => {
+    const action = userInput[2]
+    switch(action) {
+        case "list-all":
+            display_items();
+            break;
+        case "buy-item":
+            choose_item();
+            break;
+        default:
+            console.log(`\nAction ${action} not recognized, Possible options are:`)
+            console.log(`\t"list-all"`)
+            console.log(`\t\tGet a list of all items`)
+            console.log(`\t"buy-item"`)
+            console.log(`\t\tBuy an item by ID\n`)
+    }
+}
+
+if(!process.argv[2]) {
+    choose_action();
+}
+
+else {
+    process_action(process.argv);
+}
