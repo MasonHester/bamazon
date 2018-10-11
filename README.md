@@ -1,21 +1,49 @@
 # bamazon
 
+## Contents
+- [Requirements](#requirements)
+- [Description](#description)
+- [Tools Used](#tools-used)
+- [How to Use](#how-to-use)
+
+## Requirements
+- [Nodejs](https://nodejs.org/en/download/ "Install Node")
+- [MySQL](https://dev.mysql.com/downloads/installer/ "Install MySQL")
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/ "Install MySQL Workbench")
+
 ## Description
 This application is designed to interact with a mysql database using javascript through the command line.
 
-### Tools used
+## Tools used
 - Javascript
 - NPM
-  - cli-table
-  - inquirer
-  - mysql
+  - [cli-table](https://www.npmjs.com/package/cli-table "Cli-Table's NPM page")
+  - [inquirer](https://www.npmjs.com/package/inquirer "Inquirer's NPM page")
+  - [mysql](https://www.npmjs.com/package/mysql "MySQL's NPM page")
 - Node
 - MySQL
 - MySQL Workbench
 
-### How to use:
-- If using the Virtual Machine provided
- - Instructions on setting up the VM are at the bottom of the README can be found in the README for the bamazon folder (root of the repo).
+## How to use
+### Setup
+#### Using the VM Provided
+1. If you are new to using VM's check the Ubuntu Vagrant Shell's README found [here](https://github.com/switch120/ubuntu-vagrant-shell)
+2. Clone this repo onto your computer
+3. Navigate to the VM in your CLI and run `vagrant up`
+4. Run `vagrant ssh`
+6. Establish a connection to MySQL by running `mysql -u root -p` it will then prompt you to enter your password. It will be root by default (can be changed in provisioner)
+7. Open MySQL Workbench and create a connection through there
+![MySQL Workbench Connection](./assets/images/readme/mysqlConnection.png)
+8. Run the [schema.sql](./code/database/schema.sql) in the query window
+
+
+#### Not Using the VM Provided
+1. Clone this repo onto your computer
+2. Move the contents of the code folder to your preffered VM
+3. Install the dependencies
+4. Run `node liri.js` to start the app
+
+
  - Establish a connection to MySQL/MySQL Workbench
 ![MySQL Workbench Connection](./assets/images/readme/mysqlConnection.png)
  - Run the schema.sql file
