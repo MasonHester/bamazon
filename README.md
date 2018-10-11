@@ -8,6 +8,8 @@
   - [Setup](#setup)
     - [Using the VM Provided](#using-the-vm-provided)
     - [Not Using the VM Provided](#not-using-the-vm-provided)
+  - [Options](#options)
+
 ## Requirements
 - [Nodejs](https://nodejs.org/en/download/ "Install Node")
 - [MySQL](https://dev.mysql.com/downloads/installer/ "Install MySQL")
