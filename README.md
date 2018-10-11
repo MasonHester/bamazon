@@ -18,9 +18,8 @@ This application is designed to interact with a mysql database using javascript 
  - Instructions on setting up the VM are at the bottom of the README can be found in the README for the bamazon folder (root of the repo).
  - Establish a connection to MySQL/MySQL Workbench
 ![MySQL Workbench Connection](./assets/images/readme/mysqlConnection.png)
-- If not using the VM provided
- - Clone the repo and delete these files:
-  -
+ - Run the schema.sql file
+ - Run the seeds.sql file
 
 ### Options:
 All of these commands should be run in the CLI, CTRL + C can exit if needed
